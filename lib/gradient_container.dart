@@ -8,10 +8,6 @@ const endAligment = Alignment.bottomRight;
 class GradientContainer extends StatelessWidget {
   const GradientContainer(this.firstColor, this.secondColor, {super.key});
 
-  const GradientContainer.purple({super.key})
-      : firstColor = Colors.deepPurple,
-        secondColor = Colors.indigo;
-
   final Color firstColor;
   final Color secondColor;
 
